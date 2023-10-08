@@ -30,6 +30,6 @@ io.on('connection', (socket) => {
   })
 })
 
-app.listen(process.env.PORT || 3001, () => {
+server.listen(process.env.PORT || 3001, () => {
   console.log('tictactoe server is on')
 })
